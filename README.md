@@ -19,12 +19,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> *(Add screenshots/gifs of landing page, movie grid, rental flow, etc. Use `public/` or embed hosted image links)*
-
----
-
 ## ⚙️ Features
 
 - 🔍 **Browse & Search** for movies with ease  
