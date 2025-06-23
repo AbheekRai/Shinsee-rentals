@@ -1,4 +1,4 @@
-"""
+
 # 🎬 Shinsee - Movie Rental Platform
 
 **Shinsee** is a high-performance, modern movie rental platform built for seamless online browsing, renting, and subscription of movies. It offers a sleek, responsive UI with intuitive navigation, stunning visuals, and robust front-end architecture powered by **Vite**, **TypeScript**, and **React**.
