@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+"""
+# 🎬 Shinsee - Movie Rental Platform
 
-## Project info
+**Shinsee** is a high-performance, modern movie rental platform built for seamless online browsing, renting, and subscription of movies. It offers a sleek, responsive UI with intuitive navigation, stunning visuals, and robust front-end architecture powered by **Vite**, **TypeScript**, and **React**.
 
-**URL**: https://lovable.dev/projects/d5ef159c-6023-4dcc-9fa7-a3559330513e
+> 🧠 Designed for speed. Built for scale. Styled to impress.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
 
-**Use Lovable**
+| Tech           | Role                              |
+|----------------|-----------------------------------|
+| **Vite**       | Lightning-fast build tool         |
+| **React**      | Component-based UI architecture   |
+| **TypeScript** | Type-safe codebase                |
+| **Tailwind CSS** | Utility-first styling framework |
+| **shadcn/ui**  | Modern, accessible UI components  |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d5ef159c-6023-4dcc-9fa7-a3559330513e) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📸 Screenshots
 
-**Use your preferred IDE**
+> *(Add screenshots/gifs of landing page, movie grid, rental flow, etc. Use `public/` or embed hosted image links)*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚙️ Features
 
-Follow these steps:
+- 🔍 **Browse & Search** for movies with ease  
+- 🎞️ **Responsive movie grid** with smooth animations  
+- 🛒 **One-click rental and subscription** workflows  
+- 🌙 **Dark mode ready** (shadcn-powered UI)  
+- 📱 Fully **responsive** for mobile and tablet devices  
+- ⚡ Built using **Vite** for blazing-fast performance  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📁 Folder Structure (Frontend)
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d5ef159c-6023-4dcc-9fa7-a3559330513e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+shinsee/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # App views (Home, Movie Details, etc.)
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Helper functions
+│   ├── types/          # TypeScript type definitions
+│   └── App.tsx         # Main app component
+├── tailwind.config.ts  # Tailwind configuration
+└── vite.config.ts      # Vite configuration
